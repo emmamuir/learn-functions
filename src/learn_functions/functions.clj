@@ -15,7 +15,7 @@
   (prn "your status is nil")
   (prn (str "your status is not nil")))
 
-;; you can remove nil?
+;; you can remove 'nil?'
 (if status
   (prn (str "your status is " status))
   (prn "you do not have any status"))
@@ -25,7 +25,7 @@
   (prn "you are younger than me")
   (prn "you are older than me"))
 
-;; recur
+;; recur (for loop)
 (loop [i 0]
       (when (< i 5)
             (println i)
