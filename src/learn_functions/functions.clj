@@ -24,3 +24,15 @@
 (if (< age 8)
   (prn "you are younger than me")
   (prn "you are older than me"))
+
+;; recur
+(loop [i 0]
+      (when (< i 5)
+            (println i)
+            (recur (inc i)); loop i will take this value
+            ))
+
+(loop [i 0]
+      (when (< i 5)
+            (prn (str "number is " i))
+        (recur (inc i))))
