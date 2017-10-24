@@ -8,6 +8,8 @@
 
 ;; vector to a set
 (reduce conj #{} [:a :b :c])
+;same as
+(into #{} [:a :b :c])
 
 (reduce conj [1 2 3] [4 5 6])
 

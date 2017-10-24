@@ -1,4 +1,4 @@
-(ns learn-functions.try-things)
+(ns learn-functions.destructuring_example)
 
 
 (def someHomeCategory :uk)

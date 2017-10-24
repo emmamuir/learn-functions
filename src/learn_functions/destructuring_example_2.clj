@@ -1,4 +1,4 @@
-(ns learn-functions.try-things-2)
+(ns learn-functions.destructuring_example_2)
 
 (def person {:name "Emma"
              :age 21
