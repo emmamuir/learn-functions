@@ -30,5 +30,5 @@
 ; nested destructuring
 (def my-nested-hashmap {:a "A" :b "B" :c "C" :d "D" :q {:x "X" :y "Y" :z "Z"}})
 
-(let [{a :a, b :b, {x :x, y :y} :q} my-nested-hashmap]
+(let [{a :a, b :b, {:keys [x y]} :q} my-nested-hashmap]
      (println a b x y))
