@@ -26,6 +26,9 @@
        description :description} client]
      (println name location "-" description))
 
+; don't need to use 'get'
+(client :name)
+
 
 ; nested destructuring
 (def my-nested-hashmap {:a "A" :b "B" :c "C" :d "D" :q {:x "X" :y "Y" :z "Z"}})
